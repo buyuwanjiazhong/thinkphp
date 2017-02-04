@@ -1,0 +1,50 @@
+<include file="Index/header" />
+<include file="Index/nav" />	
+			<div class="clearfix"> </div>	
+		</div>
+	</div>
+	<!--start-main-->
+	
+
+<div class="banner-1">
+
+</div>
+
+	<!-- technology-left -->
+	<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+			<div class="agileinfo">
+
+		  <h2 class="w3">SEARCH</h2>
+
+		  <volist name="search" id="news">
+		  <div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+						<a href="./index.php?c=newspage&id={$news.news_id}"><img src="{$news.thumb}" class="img-responsive" alt=""></a>
+					</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$news.news_id}">{$news.newsname}</a></h3>
+						<h6>BY <a>{$news.newsauthor}&nbsp;&nbsp;</a>{$news.create_time|date="Y-m-d",###}</h6>
+							<p>{$news.description}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$news.news_id}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>
+			</volist>
+			{$pageRes}  
+
+						
+				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- technology-right -->
+		<include file="Index/foot"/>

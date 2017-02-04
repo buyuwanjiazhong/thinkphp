@@ -1,0 +1,44 @@
+<?php
+		$userinfo = $_SESSION['hostUser'];
+
+?>
+<body>
+<div class="header" id="ban" >
+		<div class="container" >
+			
+			<div class="header_right wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft; ">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="link-effect-7" id="link-effect-7">
+						<ul class="nav navbar-nav">
+							<if condition="$userinfo.status eq 1">
+								<li><a>你好,{$userinfo.username}</a></li>
+							</if>
+							<li <if condition="empty($pageCatid['catid']) eq true">class="active act"</if>><a href="./index.php">Home</a></li>
+							<volist name="newscat" id="cat">
+								<li <if condition="$pageCatid['catid'] eq $cat[catid]">class="active act"</if>><a href="./index.php?c=Paging&catid={$cat.catid}">{$cat.catname}</a></li>
+							</volist>
+							<if condition="$userinfo.status eq 1">
+								<li><a href="./index.php?c=login&a=logout">退出</a></li>
+							<else />
+								<li><a href="./index.php?c=login">登录|注册</a></li>
+
+							</if>
+
+						</ul>
+
+					</nav>
+				</div>
+				
+
+				<!-- /.navbar-collapse -->
+			</nav>
+			</div>
+				
+		</div>
+	</div>
+	

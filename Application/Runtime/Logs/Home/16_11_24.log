@@ -1,0 +1,62 @@
+[ 2016-11-24T13:47:30+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1146:Table 'sb.sb_get_top_articles' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_get_top_articles`
+
+[ 2016-11-24T13:50:13+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1146:Table 'sb.sb_home_page' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_home_page`
+
+[ 2016-11-24T13:50:28+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1146:Table 'sb.sb_home_page' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_home_page`
+
+[ 2016-11-24T13:51:05+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1146:Table 'sb.sb_home_page' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_home_page`
+
+[ 2016-11-24T13:52:39+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1146:Table 'sb.sb_home_page' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_home_page`
+
+[ 2016-11-24T14:04:09+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : SELECT * FROM `sb_news` WHERE ( news_id=6,5,5,1,6,4,1 ) 
+
+[ 2016-11-24T14:36:37+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 25 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-24T14:36:40+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 30 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-24T18:55:02+08:00 ] 127.0.0.1 /newStart/index.php?c=fashion
+ERR: 无法加载控制器:Fashion
+
+[ 2016-11-24T18:55:07+08:00 ] 127.0.0.1 /newStart/index.php?c=fashion
+ERR: 无法加载控制器:Fashion
+
+[ 2016-11-24T18:55:12+08:00 ] 127.0.0.1 /newStart/index.php?c=Paging&catid=1
+ERR: 无法加载控制器:Paging
+
+[ 2016-11-24T18:55:32+08:00 ] 127.0.0.1 /newStart/index.php?c=Paging&catid=1
+ERR: 模板不存在:./Application/Home/View/Paging/index.html
+
+[ 2016-11-24T21:32:14+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sb_news` WHERE `news_id` = 0 ORDER BY id DESC 
+

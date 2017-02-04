@@ -1,0 +1,122 @@
+<include file="Index/header" />
+<include file="Index/nav" />	
+			<div class="clearfix"> </div>	
+		</div>
+	</div>
+	<!--start-main-->
+	
+
+<div class="banner-1">
+
+</div>
+
+	<!-- technology-left -->
+	<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+			<div class="agileinfo">
+
+		  <h2 class="w3">{$article.newsname}</h2>
+			<div class="single">
+			   <img src="{$article.thumb}" class="img-responsive" alt="">
+			    <div class="b-bottom"> 
+			      <h5 class="top">{$article.description}</h5>
+				   <p class="sub">{$article.content}</p>
+			      <p>{$article.create_time|date="m月d日 H:i",###} <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>{$article.countNum}</a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>{$article.count}</a></p>
+				 
+				</div>
+			 </div>
+			  
+
+						<div class="response">
+					<h4>Responses</h4>
+					<div class="media response-info">
+						<if condition="empty($comment[0]['news_id']) eq true">
+							<div class="media-left response-text-left">
+								<a href="#">
+									<img src="./upload/unlogin.jpg" class="img-responsive" alt="" style="width: 75%; height: 75%;">
+								</a>
+								<p></p>
+							</div>
+							<div class="media-body response-text-right">
+								<p>还没有评论</p>
+								<ul>
+									<li>Jun 21, 2016</li>
+								</ul>
+								
+							</div>
+							<div class="clearfix"> </div>
+						<else />
+							<volist name="comment" id="comment">
+								<div class="media-left response-text-left">
+									
+										<img src="{$comment.user_portrait}" class="img-responsive" alt="" style="width: 60%; height: 60%;">
+									
+									<p>&nbsp;{$comment['username']}</p>
+								</div>
+								<div class="media-body response-text-right">
+									<p>{$comment['comment']}</p>
+									<ul>
+										<li>{$comment['create_time']|date="m-d H:m",###}</li>
+									</ul>
+									
+								</div>
+								<div class="clearfix"> </div>
+							</volist>
+						</if>
+					</div>
+					
+
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+						</div>
+						<div class="media-body response-text-right">
+							<div class="media response-info">
+								<div class="media-left response-text-left">
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>	
+
+
+
+				<div class="coment-form">
+					<h4>Leave your comment</h4>
+					<if condition="empty($userinfo['username']) eq true">
+						<form action="#" method="post">
+							
+							<div class="form-group">
+	                            <textarea class="form-control" id="disabledInput" type="text" placeholder="登录后评论" disabled></textarea>
+	                        </div>
+							<a href="./index.php?c=login">登录|注册</a>
+						</form>
+					<else />
+							<form id="news-comment-form">
+							
+							<div class="form-group">
+	                            <textarea class="form-control" id="disabledInput" type="text" placeholder="留言..." name="comment"></textarea>
+	                        </div>
+	                        <input type="hidden" name="user_id" value="{$userinfo.id}"/>
+	                       	<input type="hidden" name="username" value="{$userinfo.username}"/>
+	                       	<input type="hidden" name="user_portrait" value="{$userinfo.portrait}"/>
+	                        <input type="hidden" name="news_id" value="{$article.news_id}"/>
+							<button type="button" id="news-comment-submit">提交
+							</button>
+						</form>
+					</if>
+
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+		<include file="Index/foot" />
+		<script src="./Public/sb/js/general.js"></script>
+    	<script src="./Public/sb/js/layer/layer.js"></script>
+	    <script src="./Public/sb/js/dialog.js"></script>
+
+
+		<!-- technology-right -->

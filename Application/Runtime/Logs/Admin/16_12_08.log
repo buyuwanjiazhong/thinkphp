@@ -1,0 +1,91 @@
+[ 2016-12-08T15:44:08+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:13+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:13+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:13+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:13+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:14+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:14+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:14+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:14+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:15+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:15+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:15+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-12-08T15:44:20+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+

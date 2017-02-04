@@ -1,0 +1,1187 @@
+[ 2016-11-25T17:51:08+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='12',`newsname`='脸红的思春期',`catid`='3',`id`='1' WHERE ( id=1 ) [ RunTime:0.0421s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T18:21:34+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='4',`newsname`='tt',`catid`='1',`id`='3' WHERE ( id=3 ) [ RunTime:0.0498s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T18:43:12+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='11',`newsname`='马尔代夫',`catid`='2',`id`='5' WHERE ( id=5 ) [ RunTime:0.0376s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T18:43:20+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0004s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='7',`newsname`='RED VELVET2',`catid`='1',`id`='6' WHERE ( id=6 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T18:43:36+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0004s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='8',`newsname`='abcd',`catid`='1',`id`='7' WHERE ( id=7 ) [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T18:46:28+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: news_id /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 53 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 87 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0010s ]
+SQL: INSERT INTO `sb_news` (`newsname`,`catid`,`newsauthor`,`description`,`thumb`,`create_time`,`admineditor`) VALUES ('DOK2','3','DOK2','韩国的知名说唱歌手','./upload/2016/11/25/583816781ca62.jpg','1480070788','gyx') [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: INSERT INTO `sb_news_content` (`content`,`news_id`,`create_time`) VALUES ('&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;','13','1480070788') [ RunTime:0.0182s ]
+
+[ 2016-11-25T18:48:33+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 87 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/583816fd26119.jpg',`update_time`='1480070913' WHERE `news_id` = 13 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480070913' WHERE ( news_id=13 ) [ RunTime:0.0003s ]
+
+[ 2016-11-25T21:18:05+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018340s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='2016维密大秀即将开始',`catid`='1',`newsauthor`='GYX',`description`='维多利亚的秘密 (VICTORIA\'S SECRET)美国的一家连锁女性成衣零售店，主要经营内衣和文胸等。',`thumb`='./upload/2016/11/25/583839d16378b.jpg',`update_time`='1480079885' WHERE `news_id` = 9 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;Wexner凭借极具超群的品位和敏锐的商业嗅觉，将经营的品牌定位于青少年尤其是年轻女性。&lt;/p&gt;&lt;p&gt;作为一个女性内衣品牌，维多利亚的秘密这个名字无疑是成功的。在LTD公司的诱导下，它引起后来人的无限遐想，为产品的神秘感和高贵感的塑造提供了空间，成为神秘、魅力、奢侈、纵容的代名词，她所引领的不仅仅是时尚，更是一种生活态度，维多利亚的秘密品牌一直倡导“穿出你的线条，穿出你的魅力，穿出属于你的一道秘密的风景”。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480079879460994.jpg&quot; title=&quot;1480079879460994.jpg&quot; alt=&quot;v7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480079885' WHERE ( news_id=9 ) [ RunTime:0.0181s ]
+
+[ 2016-11-25T21:20:26+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018624s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='VANS',`catid`='1',`newsauthor`='GYX',`description`='Vans（范斯）是1966年诞生于美国南加州的原创极限运动潮牌。',`thumb`='./upload/2016/11/24/583692dcb4271.png',`update_time`='1480080026' WHERE `news_id` = 8 [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161124/1479971558564014.jpeg&quot; title=&quot;1479971558564014.jpeg&quot; alt=&quot;20150202193315_NvHK4.jpeg&quot;/&gt;&lt;/p&gt;',`update_time`='1480080026' WHERE ( news_id=8 ) [ RunTime:0.0181s ]
+
+[ 2016-11-25T21:21:01+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='VANS',`catid`='1',`newsauthor`='GYX',`description`='Vans（范斯）是1966年诞生于美国南加州的原创极限运动潮牌。',`thumb`='./upload/2016/11/25/58383ab733743.jpg',`update_time`='1480080061' WHERE `news_id` = 8 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161124/1479971558564014.jpeg&quot; title=&quot;1479971558564014.jpeg&quot; alt=&quot;20150202193315_NvHK4.jpeg&quot;/&gt;&lt;/p&gt;',`update_time`='1480080061' WHERE ( news_id=8 ) [ RunTime:0.0182s ]
+
+[ 2016-11-25T21:23:12+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news` SET `newsname`='2016维密大秀即将开始',`catid`='1',`newsauthor`='GYX',`description`='维多利亚的秘密 (VICTORIA\'S SECRET)美国的一家连锁女性成衣零售店，主要经营内衣和文胸等。',`thumb`='./upload/2016/11/25/58383b3d432a0.jpeg',`update_time`='1480080192' WHERE `news_id` = 9 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;Wexner凭借极具超群的品位和敏锐的商业嗅觉，将经营的品牌定位于青少年尤其是年轻女性。&lt;/p&gt;&lt;p&gt;作为一个女性内衣品牌，维多利亚的秘密这个名字无疑是成功的。在LTD公司的诱导下，它引起后来人的无限遐想，为产品的神秘感和高贵感的塑造提供了空间，成为神秘、魅力、奢侈、纵容的代名词，她所引领的不仅仅是时尚，更是一种生活态度，维多利亚的秘密品牌一直倡导“穿出你的线条，穿出你的魅力，穿出属于你的一道秘密的风景”。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480079879460994.jpg&quot; title=&quot;1480079879460994.jpg&quot; alt=&quot;v7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480080192' WHERE ( news_id=9 ) [ RunTime:0.0466s ]
+
+[ 2016-11-25T21:26:28+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018145s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0009s ]
+SQL: UPDATE `sb_news` SET `newsname`='YEEZY ',`catid`='1',`newsauthor`='KANYE WEST',`description`='全新三色 Yeezy 350 Boost V2 已经在线上与线下全部完成发售，V2 的大货量想必又有很多朋友拥有了自己的 Yeezy。 ',`thumb`='./upload/2016/11/25/58383b9c51f24.jpg',`update_time`='1480080388' WHERE `news_id` = 7 [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;　&lt;/span&gt;&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-size: 14px; font-family: 宋体; background-color: rgb(255, 255, 255);&quot;&gt;随着 adidas Originals 公布了中国区发售信息后，本月 23 日即将登场的三款黑色 Yeezy 350 Boost V2 也进入了最后的倒计时阶段。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;border: 0px; margin: 0px; padding: 0px; font-size: 14px; font-family: 宋体; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480080384692213.jpeg&quot; title=&quot;1480080384692213.jpeg&quot; alt=&quot;6ca3f70a42a241738b072dd902b12e7c_th.jpeg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;',`update_time`='1480080388' WHERE ( news_id=7 ) [ RunTime:0.0183s ]
+
+[ 2016-11-25T21:32:52+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018304s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news` SET `newsname`='京都',`catid`='2',`newsauthor`='japan',`description`='京都（Kyoto），位于日本西部近畿京都府南部，是一座内陆城市，坐落在京都盆地（山城）的北半部和丹波高原的东部山区',`thumb`='./upload/2016/11/25/58383d4b8e7d3.jpg',`update_time`='1480080772' WHERE `news_id` = 10 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;京都市的范围包括了上京区、中京区、下京区、东山区的全部以及左京区和北区的部分地区。之后京都市的行政区范围又在1902年和1918年有所扩大。&lt;/span&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480080747765726.jpg&quot; title=&quot;1480080747765726.jpg&quot; alt=&quot;W020150411592096254648.jpg&quot; width=&quot;564&quot; height=&quot;406&quot;/&gt;&lt;/p&gt;',`update_time`='1480080772' WHERE ( news_id=10 ) [ RunTime:0.0186s ]
+
+[ 2016-11-25T21:34:10+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='京都',`catid`='2',`newsauthor`='japan',`description`='京都（Kyoto），位于日本西部近畿京都府南部，是一座内陆城市，坐落在京都盆地（山城）的北半部和丹波高原的东部山区',`thumb`='./upload/2016/11/25/58383dce42f58.jpg',`update_time`='1480080850' WHERE `news_id` = 10 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&quot;&gt;京都市的范围包括了上京区、中京区、下京区、东山区的全部以及左京区和北区的部分地区。之后京都市的行政区范围又在1902年和1918年有所扩大。&lt;/span&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480080747765726.jpg&quot; title=&quot;1480080747765726.jpg&quot; alt=&quot;W020150411592096254648.jpg&quot; width=&quot;564&quot; height=&quot;406&quot;/&gt;&lt;/p&gt;',`update_time`='1480080850' WHERE ( news_id=10 ) [ RunTime:0.0368s ]
+
+[ 2016-11-25T21:41:32+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018532s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0010s ]
+SQL: UPDATE `sb_news` SET `newsname`='美国',`catid`='2',`newsauthor`='美国',`description`='拉什莫尔山国家纪念公园',`thumb`='./upload/2016/11/25/58383f3acf1b7.jpg',`update_time`='1480081292' WHERE `news_id` = 1 [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;优胜美地国家公园&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480081279674694.jpg&quot; title=&quot;1480081279674694.jpg&quot; alt=&quot;60d0c60cjw1drkguglp7cj.jpg&quot; width=&quot;651&quot; height=&quot;435&quot;/&gt;&lt;/span&gt;&lt;/p&gt;',`update_time`='1480081292' WHERE ( news_id=1 ) [ RunTime:0.0176s ]
+
+[ 2016-11-25T21:53:56+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0009s ]
+SQL: UPDATE `sb_news` SET `newsname`='马尔代夫',`catid`='2',`newsauthor`='plane',`description`='马尔代夫是我很想去的地方',`thumb`='./upload/2016/11/25/5838426ab6b39.jpg',`update_time`='1480082036' WHERE `news_id` = 11 [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161124/1479993393534398.jpeg&quot; title=&quot;1479993393534398.jpeg&quot; alt=&quot;20150701164845_hEetm.thumb.700_0.jpeg&quot;/&gt;&lt;/p&gt;',`update_time`='1480082036' WHERE ( news_id=11 ) [ RunTime:0.0184s ]
+
+[ 2016-11-25T21:56:47+08:00 ] 127.0.0.1 /newStart/admin.php?a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_user` SET `status`='-1' WHERE ( id=2 ) [ RunTime:0.0783s ]
+
+[ 2016-11-25T22:02:04+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018783s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news` SET `newsname`='内蒙古',`catid`='2',`newsauthor`='plane',`description`='蒙古包',`thumb`='./upload/2016/11/25/5838441ac8f89.jpg',`update_time`='1480082524' WHERE `news_id` = 11 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480082524' WHERE ( news_id=11 ) [ RunTime:0.0184s ]
+
+[ 2016-11-25T22:03:03+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='内蒙古',`catid`='2',`newsauthor`='plane',`description`='蒙古包',`thumb`='./upload/2016/11/25/583844945e04d.jpg',`update_time`='1480082583' WHERE `news_id` = 11 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0009s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480082583' WHERE ( news_id=11 ) [ RunTime:0.0180s ]
+
+[ 2016-11-25T22:11:16+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news` SET `newsname`='德国',`catid`='2',`newsauthor`='GYX',`description`='德国',`thumb`='./upload/2016/11/25/5838467f75494.jpg',`update_time`='1480083076' WHERE `news_id` = 11 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480083076' WHERE ( news_id=11 ) [ RunTime:0.0359s ]
+
+[ 2016-11-25T22:12:37+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news` SET `newsname`='德国',`catid`='2',`newsauthor`='GYX',`description`='德国',`thumb`='./upload/2016/11/25/583846d0ae7d5.jpg',`update_time`='1480083157' WHERE `news_id` = 11 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480083157' WHERE ( news_id=11 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:13:36+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news` SET `newsname`='德国',`catid`='2',`newsauthor`='GYX',`description`='德国',`thumb`='./upload/2016/11/25/5838470c17677.jpg',`update_time`='1480083216' WHERE `news_id` = 11 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480083216' WHERE ( news_id=11 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:14:52+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='13',`newsname`='DOK2',`catid`='3',`id`='1' WHERE ( id=1 ) [ RunTime:0.0375s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T22:15:14+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='7',`newsname`='YEEZY ',`catid`='1',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T22:15:32+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='8',`newsname`='VANS',`catid`='1',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T22:16:45+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='德国',`catid`='2',`newsauthor`='GYX',`description`='德国',`thumb`='./upload/2016/11/25/583847c9dc285.jpg',`update_time`='1480083405' WHERE `news_id` = 11 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480083405' WHERE ( news_id=11 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T22:17:44+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='德国',`catid`='2',`newsauthor`='GYX',`description`='德国',`thumb`='./upload/2016/11/25/583848058cb82.jpg',`update_time`='1480083464' WHERE `news_id` = 11 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480082520137189.jpg&quot; title=&quot;1480082520137189.jpg&quot; alt=&quot;e2da9035fca348a7.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480083464' WHERE ( news_id=11 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:18:08+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='9',`newsname`='2016维密大秀即将开始',`catid`='1',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T22:18:32+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='12',`newsname`='脸红的思春期',`catid`='3',`id`='1' WHERE ( id=1 ) [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T22:28:48+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018351s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0009s ]
+SQL: UPDATE `sb_news` SET `newsname`='RED VELVET',`catid`='3',`newsauthor`='GYX',`description`='red velvet是SM公司的5人女子组合',`thumb`='./upload/2016/11/25/58384a5b1cbea.jpg',`update_time`='1480084128' WHERE `news_id` = 6 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480084093721276.jpeg&quot; title=&quot;1480084093721276.jpeg&quot; alt=&quot;20150703220350_kNjY4.jpeg&quot; width=&quot;659&quot; height=&quot;359&quot;/&gt;&lt;/p&gt;',`update_time`='1480084128' WHERE ( news_id=6 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:37:30+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/58384ca6ea964.jpg',`update_time`='1480084650' WHERE `news_id` = 13 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480084650' WHERE ( news_id=13 ) [ RunTime:0.0003s ]
+
+[ 2016-11-25T22:38:33+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/58384ce5424fb.jpg',`update_time`='1480084713' WHERE `news_id` = 13 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480084713' WHERE ( news_id=13 ) [ RunTime:0.0007s ]
+
+[ 2016-11-25T22:40:20+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/58384d512e27e.jpg',`update_time`='1480084820' WHERE `news_id` = 13 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480084820' WHERE ( news_id=13 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T22:42:44+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/58384de13f7a5.jpg',`update_time`='1480084964' WHERE `news_id` = 13 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480084964' WHERE ( news_id=13 ) [ RunTime:0.0003s ]
+
+[ 2016-11-25T22:51:25+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0010s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/58384fea04bae.jpeg',`update_time`='1480085485' WHERE `news_id` = 13 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480085485' WHERE ( news_id=13 ) [ RunTime:0.0209s ]
+
+[ 2016-11-25T22:52:13+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/5838501a91fd3.jpg',`update_time`='1480085533' WHERE `news_id` = 13 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0009s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480085533' WHERE ( news_id=13 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:52:56+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news` SET `newsname`='DOK2',`catid`='3',`newsauthor`='DOK2',`description`='韩国的知名说唱歌手',`thumb`='./upload/2016/11/25/5838504520e4c.jpg',`update_time`='1480085576' WHERE `news_id` = 13 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0004s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480070784147145.jpg&quot; title=&quot;1480070784147145.jpg&quot; alt=&quot;34dac80621e6aa35d0a426673d816e76.jpg&quot;/&gt;&lt;/p&gt;',`update_time`='1480085576' WHERE ( news_id=13 ) [ RunTime:0.0003s ]
+
+[ 2016-11-25T22:57:01+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085820' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085820' WHERE `news_id` = 12
+
+[ 2016-11-25T22:57:02+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085822' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085822' WHERE `news_id` = 12
+
+[ 2016-11-25T22:57:04+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085824' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085824' WHERE `news_id` = 12
+
+[ 2016-11-25T22:57:04+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085824' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085824' WHERE `news_id` = 12
+
+[ 2016-11-25T22:57:23+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085843' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085843' WHERE `news_id` = 12
+
+[ 2016-11-25T22:58:26+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018467s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='这是我最近很喜欢的组合',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085906' WHERE `news_id` = 12 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480085889114487.jpg&quot; title=&quot;1480085889114487.jpg&quot; alt=&quot;3fb19429e4a772dfa07311a8a5c8ee8e7069d511.jpg&quot; width=&quot;694&quot; height=&quot;472&quot;/&gt;&lt;/p&gt;',`update_time`='1480085906' WHERE ( news_id=12 ) [ RunTime:0.0004s ]
+
+[ 2016-11-25T22:59:23+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0008s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085963' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085963' WHERE `news_id` = 12
+
+[ 2016-11-25T22:59:38+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+
+[ 2016-11-25T22:59:38+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+
+[ 2016-11-25T22:59:38+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+ERR: 1406:Data too long for column 'description' at row 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队，于2016年4月22日通过Half Album“RED ICKLE”正式出道。为作词、作曲、演奏全能的实力派新人女子组合。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085978' WHERE `news_id` = 12
+
+[ 2016-11-25T22:59:49+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480085989' WHERE `news_id` = 12 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: arial, helvetica, clean, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;《给你宇宙》是脸红的思春期8月29日发行的歌曲，因口碑极佳，在发行后一个月的9月中旬上升到了排行榜第一，截至昨日(10月10日)下午4点仍然稳居 Melon 等音源榜的榜首。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;',`update_time`='1480085989' WHERE ( news_id=12 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T23:00:37+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_news` SET `newsname`='脸红的思春期',`catid`='3',`newsauthor`='123',`description`='脸红的思春期是由安智英(主唱)，禹志润(贝斯, 吉他, 副主唱,rap)组成的二人女子乐队。',`thumb`='./upload/2016/11/24/5836e881848a6.jpg',`update_time`='1480086037' WHERE `news_id` = 12 [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;color: rgb(85, 85, 85); font-family: arial, helvetica, clean, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;《给你宇宙》是脸红的思春期8月29日发行的歌曲，因口碑极佳，在发行后一个月的9月中旬上升到了排行榜第一，截至昨日(10月10日)下午4点仍然稳居 Melon 等音源榜的榜首。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480086007407075.jpg&quot; title=&quot;1480086007407075.jpg&quot; alt=&quot;b02a194860073630545a56d02efddcae5da1664f.jpg&quot; width=&quot;673&quot; height=&quot;446&quot;/&gt;&lt;/p&gt;',`update_time`='1480086037' WHERE ( news_id=12 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T23:01:26+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='1',`newsname`='美国',`catid`='2',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:01:53+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='6',`newsname`='RED VELVET',`catid`='3',`id`='1' WHERE ( id=1 ) [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:02:28+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='10',`newsname`='京都',`catid`='2',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:03:34+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0007s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='11',`newsname`='德国',`catid`='2',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:04:00+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0006s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='10',`newsname`='京都',`catid`='2',`id`='1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:13:09+08:00 ] 127.0.0.1 /newStart/admin.php?c=topArticle&a=editTop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [2048] Declaration of Common\Model\TopArticleModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/TopArticleModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `sb_top_article` [ RunTime:0.0004s ]
+SQL: UPDATE `sb_top_article` SET `news_id`='9',`newsname`='2016维密大秀即将开始',`catid`='1',`id`='2' WHERE ( id=2 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/TopArticleController.class.php on line 39 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T23:14:07+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018396s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0010s ]
+SQL: UPDATE `sb_news` SET `newsname`='2016维密大秀即将开始',`catid`='1',`newsauthor`='GYX',`description`='维多利亚的秘密 (VICTORIA\'S SECRET)美国的一家连锁女性成衣零售店，主要经营内衣和文胸等。',`thumb`='./upload/2016/11/25/58383b3d432a0.jpeg',`update_time`='1480086847' WHERE `news_id` = 9 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;Wexner凭借极具超群的品位和敏锐的商业嗅觉，将经营的品牌定位于青少年尤其是年轻女性。&lt;/p&gt;&lt;p&gt;作为一个女性内衣品牌，维多利亚的秘密这个名字无疑是成功的。在LTD公司的诱导下，它引起后来人的无限遐想，为产品的神秘感和高贵感的塑造提供了空间，成为神秘、魅力、奢侈、纵容的代名词，她所引领的不仅仅是时尚，更是一种生活态度，维多利亚的秘密品牌一直倡导“穿出你的线条，穿出你的魅力，穿出属于你的一道秘密的风景”。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/newStart/upload/image/20161125/1480079879460994.jpg&quot; title=&quot;1480079879460994.jpg&quot; alt=&quot;v7.jpg&quot; width=&quot;731&quot; height=&quot;549&quot;/&gt;&lt;/p&gt;',`update_time`='1480086847' WHERE ( news_id=9 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T23:46:23+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0014s ]
+SQL: UPDATE `sb_news` SET `newsname`='简历',`catid`='3',`newsauthor`='郭宇欣',`description`='从2016年4月开始学习php，希望找到php编程的工作。',`thumb`='./upload/2016/11/25/58385cc1edde0.png',`update_time`='1480088783' WHERE `news_id` = 5 [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0008s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;姓名：郭宇欣&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;性别：男&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;政治面貌：群众&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;籍贯：内蒙古锡林郭勒盟锡林浩特市&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2012年全日制大学本科毕业，内蒙古师范大学鸿德学院，新闻学专业&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2012年至2016年，大学生村官，在内蒙古锡林浩特市工作&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2015年7月接触编程，先后学习了C语言，C++，php&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`update_time`='1480088783' WHERE ( news_id=5 ) [ RunTime:0.0005s ]
+
+[ 2016-11-25T23:48:43+08:00 ] 127.0.0.1 /newStart/admin.php?c=news&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_menu` WHERE `status` <> -1 AND `level` >= '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/NewsController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsModel.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `sb_news` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news` SET `newsname`='简历',`catid`='3',`newsauthor`='郭宇欣',`description`='从2016年4月开始学习php，希望找到php编程的工作。',`thumb`='./upload/2016/11/25/58385cc1edde0.png',`update_time`='1480088923' WHERE `news_id` = 5 [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsContentModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sb_news_content` [ RunTime:0.0005s ]
+SQL: UPDATE `sb_news_content` SET `content`='&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;姓名：郭宇欣&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;性别：男&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;政治面貌：群众&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;籍贯：内蒙古锡林郭勒盟锡林浩特市&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2012年全日制大学本科毕业，内蒙古师范大学鸿德学院，新闻学专业&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2012年至2016年，大学生村官，在内蒙古锡林浩特市工作&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2015年7月接触编程，先后学习了C语言，C++，php&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`update_time`='1480088923' WHERE ( news_id=5 ) [ RunTime:0.0004s ]
+

@@ -1,0 +1,85 @@
+<?php
+		$popFive = D("News")->getPopFive();
+?>
+
+<div class="col-md-3 technology-right">
+				
+				
+				<div class="blo-top1">
+							
+					<div class="tech-btm">
+					<div class="search-1 wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+							<form action="./index.php?c=search" method="post">
+								<input type="search" name="Search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+								<input type="submit" value=" ">
+							</form>
+						</div>
+					<h4>Popular Posts </h4>
+						<volist name="popFive" id="pop">
+							<div class="blog-grids wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+								<div class="blog-grid-left">
+									<a href="./index.php?c=newspage&id={$pop['news_id']}"><img src="{$pop['thumb']}" class="img-responsive" alt=""></a>
+								</div>
+								<div class="blog-grid-right">
+									
+									<h5><a href="./index.php?c=newspage&id={$pop['news_id']}">{$pop['newsname']}</a> </h5>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</volist>
+					
+					
+					
+				</div>
+				
+			
+		</div>
+		<div class="clearfix"></div>
+		<!-- technology-right -->
+	</div>
+</div>
+<div class="footer">
+		<div class="container">
+			<div class="col-md-4 footer-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+				<h4>About Me</h4>
+				<p>这是我个人建立的博客类网站</p>
+				
+					<div class="bht1">
+						<a href="./index.php?c=newspage&id=5">阅读简历</a>
+					</div>
+			</div>
+			<div class="col-md-4 footer-middle wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+			<h4>特别感谢</h4>
+			<div class="mid-btm">
+				<p>本站前端模板来自素材网</p>
+				<a target="_blank" href="http://sc.chinaz.com/">http://sc.chinaz.com/</a>
+			</div>
+			
+				<p>后端模板来自SB Admin 2</p>
+				<a target="_blank" href="https://startbootstrap.com/">https://startbootstrap.com/</a>
+		
+			</div>
+			<div class="col-md-4 footer-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+				<h4>声明</h4>
+				<p>本站内容不作任何商业用途，如本站模板内容侵犯到您的权益，请与我联系，我将及时更正</p>
+						<div class="name">
+							<form action="#" method="post">
+								<p>QQ:411183472</p>
+								<p>邮箱:411183472@qq.com</p>
+							</form>
+						
+						</div>	
+						
+							<div class="clearfix"> </div>
+					
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="copyright wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+				<div class="container">
+					<p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+				</div>
+			</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+[ 2016-12-15T11:14:53+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.085416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.165717s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:14:53+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:14:54+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:14:54+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:14:54+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:15:37+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.187518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.267636s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:15:54+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.202306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.284437s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php:41) /Users/guoyuxin/Sites/newStart/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-15T11:38:43+08:00 ] 127.0.0.1 /newStart/admin.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of Common\Model\LoginModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/LoginModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_admin` [ RunTime:0.4018s ]
+SQL: SELECT * FROM `sb_admin` WHERE ( adminName="gyx" ) LIMIT 1   [ RunTime:0.5815s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Admin/Controller/LoginController.class.php on line 28 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+

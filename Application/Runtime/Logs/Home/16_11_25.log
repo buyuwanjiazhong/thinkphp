@@ -1,0 +1,865 @@
+[ 2016-11-25T10:08:50+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 30 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T10:52:27+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&id=6
+ERR: 1146:Table 'sb.sb_news_comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sb_news_comment`
+
+[ 2016-11-25T11:32:04+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 30 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T11:33:29+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _HTTP /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 30 行.
+
+[ 2016-11-25T11:34:07+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T11:36:02+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T11:36:46+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T11:37:31+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 30 行.
+
+[ 2016-11-25T11:37:41+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 30 行.
+
+[ 2016-11-25T14:51:18+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: XML标签语法错误
+
+[ 2016-11-25T14:59:35+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0169s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:01:35+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:03:16+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:06:50+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.1028s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:12:21+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:13:08+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:19:42+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: REFERER /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php 第 29 行.
+
+[ 2016-11-25T15:20:48+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-25T15:21:59+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:23:25+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 25 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T15:23:28+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:24:05+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 12 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T15:25:54+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="212312" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 21 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T15:26:35+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="asdfa" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 21 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T15:27:01+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:27:32+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:32:25+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:33:30+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:34:55+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:35:59+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T15:41:49+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T16:25:44+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+
+[ 2016-11-25T16:27:58+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0007s ]
+
+[ 2016-11-25T16:28:55+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0009s ]
+
+[ 2016-11-25T16:31:22+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0008s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('这里是第二条评论','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0888s ]
+
+[ 2016-11-25T16:39:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0014s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第三条评论','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 27 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:39:44+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=commentRefresh
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sb_news_comment` WHERE ( news_id= ) 
+
+[ 2016-11-25T16:42:03+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第四条','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 30 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:42:42+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0009s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第四条','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:44:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013245s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0009s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第四条ddd','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:44:58+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0008s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第四条ddd','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:46:15+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035498s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0011s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('asdfasdfasdfasdfasdf','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:46:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0008s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('asdfasdfasdfasdfasdf','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:46:50+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('asdfasdfasd','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:47:41+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0005s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('第N条留言了','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T16:53:17+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0004s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('dddddd','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/NewspageController.class.php on line 29 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-25T17:05:09+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`) VALUES ('评论评论','7','guoyuxin','./upload/default.jpeg','6') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:06:15+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=scientist&temp=Fri%20Nov%2025%202016%2017:06:15%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="scientist" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:08:32+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0004s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('我也来评论一下','8','scientist','./upload/default.jpeg','6','1480064912') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:09:05+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="scientist" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:09:15+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0004s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('wozaipinglun','8','scientist','./upload/default2.jpg','6','1480064955') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=6 )  [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:23:58+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=asfsadf&temp=Fri%20Nov%2025%202016%2017:23:58%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="asfsadf" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:24:14+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=aaaaaaaa&temp=Fri%20Nov%2025%202016%2017:24:14%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="aaaaaaaa" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:24:38+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=123123123&temp=Fri%20Nov%2025%202016%2017:24:38%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="123123123" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:24:41+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=123123123123&temp=Fri%20Nov%2025%202016%2017:24:41%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="123123123123" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:24:52+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=123123123123&temp=Fri%20Nov%2025%202016%2017:24:52%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="123123123123" ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-25T17:24:52+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=123123123123&temp=Fri%20Nov%2025%202016%2017:24:52%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="123123123123" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:24:53+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=123123123123&temp=Fri%20Nov%2025%202016%2017:24:53%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="123123123123" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:25:03+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=12312312312311&temp=Fri%20Nov%2025%202016%2017:25:03%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="12312312312311" ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-25T17:25:37+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-25T17:28:07+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=sfsfsdfasdfsdfsd&temp=Fri%20Nov%2025%202016%2017:28:07%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="sfsfsdfasdfsdfsd" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:39:40+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=sadjfahjsdklafdj&temp=Fri%20Nov%2025%202016%2017:39:40%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="sadjfahjsdklafdj" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:41:58+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=adfafasdf&temp=Fri%20Nov%2025%202016%2017:41:58%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="adfafasdf" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:42:31+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=adfaasa&temp=Fri%20Nov%2025%202016%2017:42:31%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="adfaasa" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:44:50+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=fdasdfasdf&temp=Fri%20Nov%2025%202016%2017:44:50%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="fdasdfasdf" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:46:07+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=asdfas&temp=Fri%20Nov%2025%202016%2017:46:07%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="asdfas" ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-25T17:46:40+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=register&uid=aaaaa21312&temp=Fri%20Nov%2025%202016%2017:46:40%20GMT+0800%20(CST)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="aaaaa21312" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T17:51:38+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0005s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('这个组合的歌很好听','17','aaaaa21312','./upload/default.jpeg','12','1480067498') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sb_news_comment` WHERE ( news_id=12 )  [ RunTime:0.0002s ]
+
+[ 2016-11-25T18:02:26+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1054:Unknown column 'new_id' in 'field list'
+ [ SQL语句 ] : SELECT `thumb`,`new_id` FROM `sb_news` WHERE ( catid=1 ) ORDER BY news_id DESC LIMIT 3  
+
+[ 2016-11-25T18:51:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&id=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sb_news` SET `count`=count+1 WHERE ( news_id= )
+
+[ 2016-11-25T19:00:11+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013133s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('看看评论时间','17','aaaaa21312','./upload/default.jpeg','6','1480071611') [ RunTime:0.0003s ]
+
+[ 2016-11-25T19:03:31+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0004s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('评论一下看时间','17','aaaaa21312','./upload/default.jpeg','8','1480071811') [ RunTime:0.0002s ]
+
+[ 2016-11-25T19:05:03+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0005s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('时间差了几分钟','17','aaaaa21312','./upload/default.jpeg','8','1480071903') [ RunTime:0.0002s ]
+
+[ 2016-11-25T19:06:18+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('看看这里的时间','17','aaaaa21312','./upload/default.jpeg','9','1480071978') [ RunTime:0.0004s ]
+
+[ 2016-11-25T19:09:35+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-25T19:27:27+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id DESC LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `sb_news` ORDER BY count DESC id DESC LIMIT 5  
+
+[ 2016-11-25T19:27:59+08:00 ] 127.0.0.1 /newStart/index.php
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sb_news` ORDER BY count DESC,id DESC LIMIT 5  
+
+[ 2016-11-25T20:43:00+08:00 ] 127.0.0.1 /newStart/index.php?c=serach
+ERR: 无法加载控制器:Serach
+
+[ 2016-11-25T20:52:08+08:00 ] 127.0.0.1 /newStart/index.php?c=serach
+ERR: 无法加载控制器:Serach
+
+[ 2016-11-25T20:52:36+08:00 ] 127.0.0.1 /newStart/index.php?c=serach
+ERR: 无法加载控制器:Serach
+
+[ 2016-11-25T20:52:39+08:00 ] 127.0.0.1 /newStart/index.php?c=serach
+ERR: 无法加载控制器:Serach
+
+[ 2016-11-25T20:52:43+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T20:52:45+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T20:53:04+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T20:53:12+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T20:53:31+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T20:53:33+08:00 ] 127.0.0.1 /newStart/index.php?c=search
+ERR: 无法加载控制器:Search
+
+[ 2016-11-25T21:27:38+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0173s ]
+
+[ 2016-11-25T21:37:20+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0158s ]
+
+[ 2016-11-25T23:04:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0005s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('再看看时间','7','guoyuxin','./upload/default.jpeg','8','1480086283') [ RunTime:0.1135s ]
+
+[ 2016-11-25T23:04:43+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0009s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('再看看时间','7','guoyuxin','./upload/default.jpeg','8','1480086283') [ RunTime:0.0003s ]
+
+[ 2016-11-25T23:04:57+08:00 ] 127.0.0.1 /newStart/index.php?c=newspage&a=comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\NewsCatModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCatModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_news_cat` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sb_news_cat`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsCommentModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/NewsCommentModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `sb_news_comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `sb_news_comment` (`comment`,`user_id`,`username`,`user_portrait`,`news_id`,`create_time`) VALUES ('为什么评论两次','7','guoyuxin','./upload/default.jpeg','8','1480086297') [ RunTime:0.0003s ]
+
+[ 2016-11-25T23:05:31+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0133s ]
+

@@ -1,0 +1,87 @@
+<include file="Index/header" />
+
+<body>
+
+    <div id="wrapper">
+
+        <include file="Index/nav" />
+
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">添加菜单</h1>
+                    </div>
+                <form id="sb-admin-form">
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">菜单:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="Enter text" name="menuname">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">等级:</label>
+                        <select name="menulevel" style="width:300px;" class="form-control">                            
+                            <option value="2">普通管理员</option>
+                            <option value="1">超级管理员</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">模块:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="admin" name="menumodule">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">控制:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="Enter text" name="menucontroller">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">方法:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="Enter text" name="menuaction">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg" id='sb-submit'>提交</button>
+                </form>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./Public/sb/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./Public/sb/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="./Public/sb/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./Public/sb/dist/js/sb-admin-2.js"></script>
+    <script src="./Public/sb/js/general.js"></script>
+    <script src="./Public/sb/js/layer/layer.js"></script>
+    <script src="./Public/sb/js/dialog.js"></script>
+    <script>
+        var SCOPE={
+            'add_url' : './admin.php?c=menu&a=add',
+            'jump_url' : './admin.php?c=menu'
+        }
+    </script> 
+
+</body>
+
+</html>

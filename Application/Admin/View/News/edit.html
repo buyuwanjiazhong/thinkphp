@@ -1,0 +1,101 @@
+<include file="Index/header" />
+
+<body>
+
+    <div id="wrapper">
+
+        <include file="Index/nav" />
+
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">修改文章</h1>
+                    </div>
+                <form id="sb-admin-form">
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">标题:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="Enter text" name="newsname" value="{$editNew.newsname}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">分类:</label>
+                        <select name="catid" style="width:300px;" class="form-control">                            
+                            <volist name="catinfos" id="cat">
+                                <option value="{$cat.catid}" <if condition="$editNew[catid] eq $cat[catid]">selected="selected"</if>>{$cat.catname}</option>
+                            </volist>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">作者:</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" style="width:300px;" placeholder="Enter text" name="newsauthor" value="{$editNew.newsauthor}">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">描述:</label>
+                        <div class="form-group">                   
+                            <textarea style="width:300px;" class="form-control" rows="5" name="description">{$editNew.description}</textarea>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="inputname" class="col-sm-1 control-label" style="font-size:20px;">封面:</label>
+                            <input id="file_upload"  type="file" multiple="true" >
+                            <img style="display: show" id="upload_org_code_img" src="{$editNew.thumb}" width="10%" height="10%">
+                            <input id="file_upload_image" name="thumb" type="hidden" multiple="true" value="{$editNew.thumb}">
+                    </div>
+                    <div class="form-group">
+                        <script id="editor" name="newscontent" type="text/plain" style="width:756px;height:500px;">{$editNew.content}</script>
+                    </div>
+                    <input type="hidden" name="news_id" value="{$editNew.news_id}" />
+                    <button type="button" class="btn btn-primary btn-lg" id='sb-submit'>提交</button>
+                </form>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./Public/sb/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./Public/sb/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="./Public/sb/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./Public/sb/dist/js/sb-admin-2.js"></script>
+    <script src="./Public/sb/js/general.js"></script>
+    <script src="./Public/sb/js/uploadify/jquery.uploadify.min.js"></script>
+    <script src="./Public/sb/js/layer/layer.js"></script>
+    <script src="./Public/sb/js/dialog.js"></script>
+    <script type="text/javascript" src="./Public/sb/js/utf8-php/ueditor.all.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./Public/sb/js/utf8-php/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./Public/sb/js/utf8-php/ueditor.all.min.js"> </script>
+    <script>
+        var ue = UE.getEditor('editor');
+    </script>
+
+    <script>
+        var SCOPE={
+            'edit_url' : './admin.php?c=news&a=add',
+            'jump_url' : './admin.php?c=news',
+            'ajax_upload_swf' : './Public/sb/js/uploadify/uploadify.swf',
+            'ajax_upload_image_url' : './admin.php?c=image&a=ajaxuploadimage',
+        }
+    </script> 
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+[ 2016-11-23T13:05:16+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 25 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+
+[ 2016-11-23T13:05:19+08:00 ] 127.0.0.1 /newStart/index.php?c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [2048] Declaration of Common\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Common\Model\UserModel::find() should be compatible with Think\Model::find($options = Array) /Users/guoyuxin/Sites/newStart/Application/Common/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `sb_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sb_user` WHERE ( username="guoyuxin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /Users/guoyuxin/Sites/newStart/Application/Home/Controller/LoginController.class.php on line 30 and defined /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 2 行.
+NOTIC: [8] Undefined variable: data /Users/guoyuxin/Sites/newStart/Application/Common/Common/function.php 第 6 行.
+

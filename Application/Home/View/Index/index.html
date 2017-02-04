@@ -1,0 +1,212 @@
+<include file="Index/header" />
+<include file="Index/nav" />	
+			
+			<div class="clearfix"> </div>	
+		</div>
+	</div>
+	<!--start-main-->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="logo wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+				<h1><a href="index.html">STYLE BLOG</a></h1>
+				<p><label class="of"></label>LET'S MAKE A PERFECT STYLE<label class="on"></label></p>
+			</div>
+		</div>
+	</div>
+<!-- banner -->
+
+<div class="banner" style="background: url({$articles[0][thumb]}) no-repeat 0px 0px; background-size:cover;">
+<div class="container">	
+		<h2>{$articles[0][newsname]}</h2>
+		<p>{$articles[0][description]}</p>
+		<a href="./index.php?c=newspage&id={$articles[0]['news_id']}">READ MORE</a>
+	</div>
+</div>
+<div class="services w3l wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+		<div class="container">
+			<div class="grid_3 grid_5">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#trekking" role="tab" id="trekking-tab" data-toggle="tab" aria-controls="trekking">MUSIC</a></li>
+						
+						<li role="presentation" class=""><a href="#safari" role="tab" id="safari-tab" data-toggle="tab" aria-controls="safari">TRAVEL</a></li>
+						<li role="presentation" class=""><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">FASHION</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade" id="expeditions" aria-labelledby="expeditions-tab">
+							
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[0][0]['news_id']}"><img src="{$topPics[0][0]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[0][1]['news_id']}"><img src="{$topPics[0][1]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[0][2]['news_id']}"><img src="{$topPics[0][2]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						
+						
+						<div role="tabpanel" class="tab-pane fade" id="safari" aria-labelledby="safari-tab">
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[1][0]['news_id']}"><img src="{$topPics[1][0]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[1][1]['news_id']}"><img src="{$topPics[1][1]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[1][2]['news_id']}"><img src="{$topPics[1][2]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade active in" id="trekking" aria-labelledby="trekking-tab">
+
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[2][0]['news_id']}"><img src="{$topPics[2][0]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[2][1]['news_id']}"><img src="{$topPics[2][1]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image" style="width: 380px; height: 250px; overflow: hidden;">
+								<a href="./index.php?c=newspage&id={$topPics[2][2]['news_id']}"><img src="{$topPics[2][2]['thumb']}" class="img-responsive" alt="Wanderer"></a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- technology-left -->
+	<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+		<div class="tech-no">
+			<!-- technology-top -->
+			
+			 <div class="tc-ch wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+				
+					<div class="tch-img">
+						<a href="./index.php?c=newspage&id={$articles[1]['news_id']}"><img src="{$articles[1]['thumb']}" class="img-responsive" alt=""></a>
+					</div>
+					
+					<h3><a href="./index.php?c=newspage&id={$articles[1]['news_id']}">{$articles[1]['newsname']}</a></h3>
+					<h6>{$articles[1]['create_time']|date="m-d H:m",###}&nbsp;&nbsp;</h6>
+						<p>{$articles[1]['description']}</p>
+						<div class="bht1">
+							<a href="./index.php?c=newspage&id={$articles[1]['news_id']}">Continue Reading</a>
+						</div>
+						
+						<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<!-- technology-top -->
+			<!-- technology-top -->
+			
+			<!-- technology-top -->
+			<div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+							<a href="./index.php?c=newspage&id={$articles[2]['news_id']}"><img src="{$articles[2]['thumb']}" class="img-responsive" alt=""></a>
+						</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$articles[2]['news_id']}">{$articles[2]['newsname']}</a></h3>
+						<h6>{$articles[2]['create_time']|date="m月d日 H:m",###}&nbsp;&nbsp;</h6>
+							<p>{$articles[2]['description']}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$articles[2]['news_id']}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>
+
+			<div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+							<a href="./index.php?c=newspage&id={$articles[3]['news_id']}"><img src="{$articles[3]['thumb']}" class="img-responsive" alt=""></a>
+						</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$articles[3]['news_id']}">{$articles[3]['newsname']}</a></h3>
+						<h6>{$articles[3]['create_time']|date="m月d日 H:m",###}&nbsp;&nbsp;</h6>
+							<p>{$articles[3]['description']}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$articles[3]['news_id']}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>
+
+			<div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+							<a href="./index.php?c=newspage&id={$articles[4]['news_id']}"><img src="{$articles[4]['thumb']}" class="img-responsive" alt=""></a>
+						</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$articles[4]['news_id']}">{$articles[4]['newsname']}</a></h3>
+						<h6>{$articles[4]['create_time']|date="m月d日 H:m",###}&nbsp;&nbsp;</h6>
+							<p>{$articles[4]['description']}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$articles[4]['news_id']}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>
+
+			<div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+							<a href="./index.php?c=newspage&id={$articles[5]['news_id']}"><img src="{$articles[5]['thumb']}" class="img-responsive" alt=""></a>
+						</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$articles[5]['news_id']}">{$articles[5]['newsname']}</a></h3>
+						<h6>{$articles[5]['create_time']|date="m月d日 H:m",###}&nbsp;&nbsp;</h6>
+							<p>{$articles[5]['description']}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$articles[5]['news_id']}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>			
+
+
+			<div class="wthree">
+				 <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+					<div class="tch-img">
+							<a href="./index.php?c=newspage&id={$articles[6]['news_id']}"><img src="{$articles[6]['thumb']}" class="img-responsive" alt=""></a>
+						</div>
+				 </div>
+				 <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+						<h3><a href="./index.php?c=newspage&id={$articles[6]['news_id']}">{$articles[6]['newsname']}</a></h3>
+						<h6>{$articles[6]['create_time']|date="m月d日 H:m",###}&nbsp;&nbsp;</h6>
+							<p>{$articles[6]['description']}</p>
+							<div class="bht1">
+								<a href="./index.php?c=newspage&id={$articles[6]['news_id']}">Read More</a>
+							</div>
+							
+							<div class="clearfix"></div>
+					
+				 </div>
+					<div class="clearfix"></div>
+			</div>
+			
+			</div>
+		</div>
+		<!-- technology-right -->
+		<include file="Index/foot"/>
