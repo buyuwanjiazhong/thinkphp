@@ -63,7 +63,7 @@
 	<div class="header-bottom">
 		<div class="container">
 			<div class="logo wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-				<h1><a href="index.html">STYLE BLOG</a></h1>
+				<h1><a href="./index.php">STYLE BLOG</a></h1>
 				<p><label class="of"></label>LET'S MAKE A PERFECT STYLE<label class="on"></label></p>
 			</div>
 		</div>
@@ -327,8 +327,7 @@
 				<p>本站内容不作任何商业用途，如本站模板内容侵犯到您的权益，请与我联系，我将及时更正</p>
 						<div class="name">
 							<form action="#" method="post">
-								<p>QQ:411183472</p>
-								<p>邮箱:411183472@qq.com</p>
+								<p>邮箱:guoyuxin1009@gmail.com</p>
 							</form>
 						
 						</div>	

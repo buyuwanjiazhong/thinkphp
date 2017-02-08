@@ -24,7 +24,7 @@ class AdminController extends CommonController {
     		}
     		$post['password'] = getMd5Password($_POST['adminpassword']);
     		$post['adminLevel'] = $_POST['adminlevel'];
-    		$res = D("User")->insert($post);
+    		$res = D("Admin")->insert($post);
     		if(!$res){
     			return show(0,"新增管理员失败");
     		}

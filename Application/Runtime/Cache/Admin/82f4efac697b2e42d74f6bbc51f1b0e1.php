@@ -181,8 +181,8 @@
     <script src="./Public/sb/js/dialog.js"></script>
     <script>
         var SCOPE={
-            'add_url' : './admin.php?c=user&a=add',
-            'jump_url' : './admin.php?c=user'
+            'add_url' : './admin.php?c=admin&a=add',
+            'jump_url' : './admin.php?c=admin'
         }
     </script> 
 
