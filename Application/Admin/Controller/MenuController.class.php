@@ -35,7 +35,6 @@ class MenuController extends CommonController {
     		if($_POST['menuid']){
                 $this->editSave($post);
             }
-            exit;
 
             $post['create_time'] = time();
 
