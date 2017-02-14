@@ -25,7 +25,7 @@ class LoginController extends Controller {
 		}
 		
 		session('adminUser',$user);
-		D("Login")->adminLastLoginTime($_POST['username']);
+		//D("Login")->adminLastLoginTime($_POST['username']);
 		return show(1,'欢迎登录');
 
     }
